@@ -264,7 +264,9 @@ function Index() {
                 libri sprecati
               </div>
             </div>
+            </div>
           </div>
+
           <div className="h-24 md:h-32" />
         </div>
       </section>
