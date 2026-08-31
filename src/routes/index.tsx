@@ -229,7 +229,9 @@ function Index() {
               </a>
             </div>
           </div>
-          <div className="mx-auto mt-14 grid max-w-[1400px] animate-rise grid-cols-2 gap-px border-t border-line bg-line px-6 [animation-delay:480ms] md:grid-cols-4 md:px-12">
+          <div className="mx-auto mt-14 max-w-[1400px] px-6 md:px-12">
+            <div className="grid animate-rise grid-cols-2 gap-px border-t border-line bg-line [animation-delay:480ms] md:grid-cols-4">
+
             <div className="bg-background px-1 py-6">
               <div className="font-display text-4xl tracking-tight text-foreground md:text-5xl">
                 Migliaia
