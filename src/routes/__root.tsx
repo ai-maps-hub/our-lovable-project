@@ -77,15 +77,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "A Book for a Meal — un libro diventa un pasto" },
+      {
+        name: "description",
+        content:
+          "A.B.F.A.M. raccoglie, scambia e rivende libri usati per garantire pasti gratuiti a chi è in difficoltà.",
+      },
+      { property: "og:title", content: "A Book for a Meal — un libro diventa un pasto" },
+      {
+        property: "og:description",
+        content: "Iniziativa solidale: i libri a fine vita diventano pasti per chi ne ha bisogno.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
+
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
